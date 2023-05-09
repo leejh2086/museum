@@ -1,0 +1,148 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+    width: 1228px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+header > :first-child > ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 32px auto 0px auto;
+    width: 100%;
+    height: 50px;
+    gap: 16px;
+}
+
+header > :first-child > ul > li{
+    border-top: 3px solid;
+
+}
+
+header > nav > ul {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 22px;
+    align-items: center;
+    gap: 8px;
+}
+
+#main-banner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1228px;
+    height: 500px;
+    margin: 0px auto 0px auto;
+    background-image: url("https://www.museum.go.kr/uploadfile/ecms/visual/1225128.png?_=1683605620885");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#section {
+    max-width: 1228px;
+    height: 100px;
+    margin: 0px auto 0px auto;
+}
+
+#section > :first-child{
+    display:flex;
+    gap:16px;
+    width: 1000px;
+    height: 50px;
+    margin-top: 64px;
+    font-weight:bold;
+    font-size:18px;
+}
+#section > :last-child{
+    display:flex;
+    gap:16px;
+    width:1000px;
+    height:50px;
+    font-weight:bold;
+    font-size:18px;
+    border-bottom: 3px solid;
+}
+
+#ex_title{
+    width: 1228px;
+    height: 45px;
+    margin: 96px auto 0 auto;
+    font-size:40px;
+    font-weight : bold;
+}
+
+#exhibition {
+    display:flex;
+    max-width: 1228px;
+    height: 800px;
+    margin: 32px auto 0px auto;
+     
+}
+
+#exhibition > div > #parent-item{
+    
+    display:flex;
+    gap:8px;
+}
+
+
+   /*추가된 코드*/
+.item-exhibition > img {
+    flex:1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
